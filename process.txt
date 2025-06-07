@@ -1,0 +1,42 @@
+
+version controller(github)
+tool git bash:-----
+
+create git hub repo
+use git clone using ssh
+cd your repo location
+install annanaconda and connect to git bash
+command:
+echo 'export PATH="/c/Users/warriorkrish/Anaconda3:/c/Users/warriorkrish/Anaconda3/Library/bin:/c/Users/warriorkrish/Anaconda3/Scripts:$PATH"' >> ~/.bashrc
+source ~/.bashrc----use it you get error
+conda --version
+conda init bash
+conda activate medibot
+----
+if above activate command is not working this command to sove the error
+echo 'source ~/Anaconda3/etc/profile.d/conda.sh' >> ~/.bashrc
+source ~/.bashrc
+----
+
+create text file in that folder and 
+sentence-transformers
+langchain
+flask
+pypdf
+python-dotenv
+pinecone-client[grpc]
+langchain-community
+langchain-openai
+langchain-experimental
+sentencepiece 
+
+
+save as requirements.txt 
+
+pip install requirements.txt
+-----------------------------
+
+if get error 
+use this conda install -c conda-forge cmake
+
+-------------------------------
